@@ -14,6 +14,8 @@
 		6564C6762818B42B00A640DD /* clubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564C6752818B42B00A640DD /* clubTests.swift */; };
 		6564C6802818B42B00A640DD /* clubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564C67F2818B42B00A640DD /* clubUITests.swift */; };
 		6564C6822818B42B00A640DD /* clubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564C6812818B42B00A640DD /* clubUITestsLaunchTests.swift */; };
+		BDA8EF872823449A00632365 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8EF862823449A00632365 /* Modelo.swift */; };
+		BDCF28692823409200E5B903 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF28682823409200E5B903 /* homeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		6564C67B2818B42B00A640DD /* clubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6564C67F2818B42B00A640DD /* clubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clubUITests.swift; sourceTree = "<group>"; };
 		6564C6812818B42B00A640DD /* clubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDA8EF862823449A00632365 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		BDCF28682823409200E5B903 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				6564C6662818B42800A640DD /* ContentView.swift */,
 				6564C6682818B42B00A640DD /* Assets.xcassets */,
 				6564C66A2818B42B00A640DD /* Preview Content */,
+				BDCF28682823409200E5B903 /* homeView.swift */,
+				BDA8EF862823449A00632365 /* Modelo.swift */,
 			);
 			path = club;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				6564C6672818B42800A640DD /* ContentView.swift in Sources */,
 				6564C6652818B42800A640DD /* clubApp.swift in Sources */,
+				BDCF28692823409200E5B903 /* homeView.swift in Sources */,
+				BDA8EF872823449A00632365 /* Modelo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
