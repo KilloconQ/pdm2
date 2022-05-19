@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Carrito" representedClassName="Carrito" syncable="YES" codeGenerationType="class">
+        <attribute name="authorc" optional="YES" attributeType="String"/>
+        <attribute name="genrec" optional="YES" attributeType="String"/>
+        <attribute name="imgurlc" optional="YES" attributeType="String"/>
+        <attribute name="namec" optional="YES" attributeType="String"/>
+        <attribute name="pricec" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="product_idc" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Discos" representedClassName="Discos" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="genre" optional="YES" attributeType="String"/>
+        <attribute name="imgurl" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="product_id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Carrito" positionX="-54" positionY="36" width="128" height="119"/>
+        <element name="Discos" positionX="-63" positionY="-18" width="128" height="119"/>
+    </elements>
+</model>

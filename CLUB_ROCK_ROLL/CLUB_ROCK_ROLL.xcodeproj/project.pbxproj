@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB50407B283543BC009293DB /* Admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50407A283543BC009293DB /* Admin.swift */; };
+		FB50407D28355426009293DB /* DetalleCarrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50407C28355426009293DB /* DetalleCarrito.swift */; };
+		FB50407F2835577C009293DB /* NosotrosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50407E2835577C009293DB /* NosotrosView.swift */; };
+		FB50408128355901009293DB /* EventosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50408028355901009293DB /* EventosView.swift */; };
+		FB50408328356010009293DB /* Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50408228356010009293DB /* Registro.swift */; };
+		FB5040852835603D009293DB /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5040842835603D009293DB /* Modelo.swift */; };
+		FB5040972835642D009293DB /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = FB5040962835642D009293DB /* Stripe */; };
+		FB5040992835642D009293DB /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = FB5040982835642D009293DB /* StripeApplePay */; };
+		FB50409B2835642D009293DB /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = FB50409A2835642D009293DB /* StripeCardScan */; };
+		FB50409D2835642D009293DB /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = FB50409C2835642D009293DB /* StripeFinancialConnections */; };
+		FB50409F2835642D009293DB /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = FB50409E2835642D009293DB /* StripeIdentity */; };
+		FB5040A328356B8B009293DB /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5040A228356B8B009293DB /* Cart.swift */; };
+		FB5040A628357F58009293DB /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5040A428357F58009293DB /* PlaceAnnotationView.swift */; };
+		FB5040A728357F58009293DB /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5040A528357F58009293DB /* LocationDetailsView.swift */; };
+		FB5040A928358921009293DB /* CreaDisco.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5040A828358921009293DB /* CreaDisco.swift */; };
+		FB57443F2832AE68005C8D93 /* CLUB_ROCK_ROLLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57443E2832AE68005C8D93 /* CLUB_ROCK_ROLLApp.swift */; };
+		FB5744412832AE68005C8D93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5744402832AE68005C8D93 /* ContentView.swift */; };
+		FB5744432832AE6A005C8D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5744422832AE6A005C8D93 /* Assets.xcassets */; };
+		FB5744462832AE6A005C8D93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5744452832AE6A005C8D93 /* Preview Assets.xcassets */; };
+		FB5744482832AE6A005C8D93 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5744472832AE6A005C8D93 /* Persistence.swift */; };
+		FB57444B2832AE6A005C8D93 /* CLUB_ROCK_ROLL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5744492832AE6A005C8D93 /* CLUB_ROCK_ROLL.xcdatamodeld */; };
+		FB5744532832AE97005C8D93 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5744512832AE97005C8D93 /* Model.xcdatamodeld */; };
+		FB5744552832B11B005C8D93 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5744542832B11B005C8D93 /* CoreDataManager.swift */; };
+		FB5744572832B73C005C8D93 /* DetalleDisco.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5744562832B73C005C8D93 /* DetalleDisco.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB50407A283543BC009293DB /* Admin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin.swift; sourceTree = "<group>"; };
+		FB50407C28355426009293DB /* DetalleCarrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCarrito.swift; sourceTree = "<group>"; };
+		FB50407E2835577C009293DB /* NosotrosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NosotrosView.swift; sourceTree = "<group>"; };
+		FB50408028355901009293DB /* EventosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventosView.swift; sourceTree = "<group>"; };
+		FB50408228356010009293DB /* Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registro.swift; sourceTree = "<group>"; };
+		FB5040842835603D009293DB /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		FB5040A228356B8B009293DB /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		FB5040A428357F58009293DB /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
+		FB5040A528357F58009293DB /* LocationDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
+		FB5040A828358921009293DB /* CreaDisco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaDisco.swift; sourceTree = "<group>"; };
+		FB57443B2832AE68005C8D93 /* CLUB_ROCK_ROLL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLUB_ROCK_ROLL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB57443E2832AE68005C8D93 /* CLUB_ROCK_ROLLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLUB_ROCK_ROLLApp.swift; sourceTree = "<group>"; };
+		FB5744402832AE68005C8D93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB5744422832AE6A005C8D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5744452832AE6A005C8D93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB5744472832AE6A005C8D93 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FB57444A2832AE6A005C8D93 /* CLUB_ROCK_ROLL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CLUB_ROCK_ROLL.xcdatamodel; sourceTree = "<group>"; };
+		FB5744522832AE97005C8D93 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FB5744542832B11B005C8D93 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FB5744562832B73C005C8D93 /* DetalleDisco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleDisco.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5744382832AE68005C8D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB50409B2835642D009293DB /* StripeCardScan in Frameworks */,
+				FB50409D2835642D009293DB /* StripeFinancialConnections in Frameworks */,
+				FB50409F2835642D009293DB /* StripeIdentity in Frameworks */,
+				FB5040972835642D009293DB /* Stripe in Frameworks */,
+				FB5040992835642D009293DB /* StripeApplePay in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB5744322832AE68005C8D93 = {
+			isa = PBXGroup;
+			children = (
+				FB5744512832AE97005C8D93 /* Model.xcdatamodeld */,
+				FB57443D2832AE68005C8D93 /* CLUB_ROCK_ROLL */,
+				FB57443C2832AE68005C8D93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB57443C2832AE68005C8D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB57443B2832AE68005C8D93 /* CLUB_ROCK_ROLL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB57443D2832AE68005C8D93 /* CLUB_ROCK_ROLL */ = {
+			isa = PBXGroup;
+			children = (
+				FB5040A528357F58009293DB /* LocationDetailsView.swift */,
+				FB5040A428357F58009293DB /* PlaceAnnotationView.swift */,
+				FB57443E2832AE68005C8D93 /* CLUB_ROCK_ROLLApp.swift */,
+				FB5040842835603D009293DB /* Modelo.swift */,
+				FB5744402832AE68005C8D93 /* ContentView.swift */,
+				FB5040A828358921009293DB /* CreaDisco.swift */,
+				FB5040A228356B8B009293DB /* Cart.swift */,
+				FB50408228356010009293DB /* Registro.swift */,
+				FB50407E2835577C009293DB /* NosotrosView.swift */,
+				FB50407A283543BC009293DB /* Admin.swift */,
+				FB5744562832B73C005C8D93 /* DetalleDisco.swift */,
+				FB50407C28355426009293DB /* DetalleCarrito.swift */,
+				FB50408028355901009293DB /* EventosView.swift */,
+				FB5744542832B11B005C8D93 /* CoreDataManager.swift */,
+				FB5744422832AE6A005C8D93 /* Assets.xcassets */,
+				FB5744472832AE6A005C8D93 /* Persistence.swift */,
+				FB5744492832AE6A005C8D93 /* CLUB_ROCK_ROLL.xcdatamodeld */,
+				FB5744442832AE6A005C8D93 /* Preview Content */,
+			);
+			path = CLUB_ROCK_ROLL;
+			sourceTree = "<group>";
+		};
+		FB5744442832AE6A005C8D93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB5744452832AE6A005C8D93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB57443A2832AE68005C8D93 /* CLUB_ROCK_ROLL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB57444E2832AE6A005C8D93 /* Build configuration list for PBXNativeTarget "CLUB_ROCK_ROLL" */;
+			buildPhases = (
+				FB5744372832AE68005C8D93 /* Sources */,
+				FB5744382832AE68005C8D93 /* Frameworks */,
+				FB5744392832AE68005C8D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLUB_ROCK_ROLL;
+			packageProductDependencies = (
+				FB5040962835642D009293DB /* Stripe */,
+				FB5040982835642D009293DB /* StripeApplePay */,
+				FB50409A2835642D009293DB /* StripeCardScan */,
+				FB50409C2835642D009293DB /* StripeFinancialConnections */,
+				FB50409E2835642D009293DB /* StripeIdentity */,
+			);
+			productName = CLUB_ROCK_ROLL;
+			productReference = FB57443B2832AE68005C8D93 /* CLUB_ROCK_ROLL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5744332832AE68005C8D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FB57443A2832AE68005C8D93 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FB5744362832AE68005C8D93 /* Build configuration list for PBXProject "CLUB_ROCK_ROLL" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5744322832AE68005C8D93;
+			packageReferences = (
+				FB5040952835642D009293DB /* XCRemoteSwiftPackageReference "stripe-ios" */,
+			);
+			productRefGroup = FB57443C2832AE68005C8D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB57443A2832AE68005C8D93 /* CLUB_ROCK_ROLL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5744392832AE68005C8D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5744462832AE6A005C8D93 /* Preview Assets.xcassets in Resources */,
+				FB5744432832AE6A005C8D93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5744372832AE68005C8D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB50408328356010009293DB /* Registro.swift in Sources */,
+				FB5040A928358921009293DB /* CreaDisco.swift in Sources */,
+				FB5744552832B11B005C8D93 /* CoreDataManager.swift in Sources */,
+				FB5744482832AE6A005C8D93 /* Persistence.swift in Sources */,
+				FB5040A328356B8B009293DB /* Cart.swift in Sources */,
+				FB5744412832AE68005C8D93 /* ContentView.swift in Sources */,
+				FB5040852835603D009293DB /* Modelo.swift in Sources */,
+				FB50407D28355426009293DB /* DetalleCarrito.swift in Sources */,
+				FB5744532832AE97005C8D93 /* Model.xcdatamodeld in Sources */,
+				FB5040A628357F58009293DB /* PlaceAnnotationView.swift in Sources */,
+				FB5744572832B73C005C8D93 /* DetalleDisco.swift in Sources */,
+				FB57443F2832AE68005C8D93 /* CLUB_ROCK_ROLLApp.swift in Sources */,
+				FB57444B2832AE6A005C8D93 /* CLUB_ROCK_ROLL.xcdatamodeld in Sources */,
+				FB50408128355901009293DB /* EventosView.swift in Sources */,
+				FB50407B283543BC009293DB /* Admin.swift in Sources */,
+				FB5040A728357F58009293DB /* LocationDetailsView.swift in Sources */,
+				FB50407F2835577C009293DB /* NosotrosView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB57444C2832AE6A005C8D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB57444D2832AE6A005C8D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB57444F2832AE6A005C8D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CLUB_ROCK_ROLL/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlejandroRincon.CLUB-ROCK-ROLL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5744502832AE6A005C8D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CLUB_ROCK_ROLL/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlejandroRincon.CLUB-ROCK-ROLL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5744362832AE68005C8D93 /* Build configuration list for PBXProject "CLUB_ROCK_ROLL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB57444C2832AE6A005C8D93 /* Debug */,
+				FB57444D2832AE6A005C8D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB57444E2832AE6A005C8D93 /* Build configuration list for PBXNativeTarget "CLUB_ROCK_ROLL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB57444F2832AE6A005C8D93 /* Debug */,
+				FB5744502832AE6A005C8D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB5040952835642D009293DB /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB5040962835642D009293DB /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB5040952835642D009293DB /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = Stripe;
+		};
+		FB5040982835642D009293DB /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB5040952835642D009293DB /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeApplePay;
+		};
+		FB50409A2835642D009293DB /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB5040952835642D009293DB /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeCardScan;
+		};
+		FB50409C2835642D009293DB /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB5040952835642D009293DB /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeFinancialConnections;
+		};
+		FB50409E2835642D009293DB /* StripeIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB5040952835642D009293DB /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeIdentity;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FB5744492832AE6A005C8D93 /* CLUB_ROCK_ROLL.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB57444A2832AE6A005C8D93 /* CLUB_ROCK_ROLL.xcdatamodel */,
+			);
+			currentVersion = FB57444A2832AE6A005C8D93 /* CLUB_ROCK_ROLL.xcdatamodel */;
+			path = CLUB_ROCK_ROLL.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		FB5744512832AE97005C8D93 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB5744522832AE97005C8D93 /* Model.xcdatamodel */,
+			);
+			currentVersion = FB5744522832AE97005C8D93 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB5744332832AE68005C8D93 /* Project object */;
+}
